@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pitha Ghor</title>
+    <style>
+        form .basic-info label {
+            display: inline-block;
+            width: 100px; 
+            margin:20px 0;
+            color: blanchedalmond;  
+        }
+    </style>
+</head>
+<body>
+    <header>
+
+    </header>
+    <main>
+
+        <section>
+            <h2>Jamal's mother pitha ghor</h2>
+<form>
+    <fieldset>
+<legend>basic-info</legend>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required><br><br>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <label for="pitha">Choose a pitha:</label>
+    <select id="pitha" name="pitha">
+        <option value="bhapa-pitha">Bhapa Pitha</option>
+        <option value="chitoi-pitha">Chitoi Pitha</option>
+        <option value="patishapta">Patishapta</option>
+        <option value="puli-pitha">Puli Pitha</option>
+    </select><br><br>
+
+    <label for="quantity">Quantity:</label>
+    <input type="number" id="quantity" name="quantity" min="1" max="100" required><br><br>
+
+    <input type="submit" value="Order Now">
+    </fieldset>
+    <fieldset>
+        <legend>pitha info</legend>
+        <label for="chitoi-pitha">chitoi-pitha</label>
+        <input type="radio" name="pitha-type" id="chitoi-pitha">
+        <label for="bhapa-pitha">bhapa-pitha</label>
+        <input type="radio" name="pitha-type" id="bhapa-pitha">
+    </fieldset>
+    <fieldset>
+        <legend>vorta selection</legend>
+        <label for="alu-vorta">alu vorta</label>
+        <input type="checkbox" name="vorta" id="alu-vorta">
+        <label for="begun-vorta">begun vorta</label>
+        <input type="checkbox" name="vorta" id="begun-vorta">
+
+    </fieldset>
+    <fieldset>
+        <legend>extra info</legend>
+        <textarea name="extra-info" id="extra-info" cols="20" rows="5"></textarea>
+    </fieldset>
+    <input type="submit" value="submit">
+    <input type="reset"value="reset">
+
+</form>
+
+        </section>
+    </main>
+
+    <footer>
+
+
+    </footer>
+    
+</body>
+</html>
